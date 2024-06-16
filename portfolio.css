@@ -1,0 +1,81 @@
+body {
+    font-family: 'Roboto';
+}
+aside.one {
+    width: 30%;
+    height: 100%;
+   position:absolute;
+    background-color: black;
+    float: left;
+}
+h1 {
+    font-size: 25px;
+    margin-top: 360px;
+    margin-left: 50px;
+    color: white;
+}
+img.one {
+    width: 100%;
+    height: 350px;
+    float:left;
+    border-radius:5px;
+ top:0;
+}
+p.one {
+    color: white;
+    text-align:center;
+    margin-top:10px
+}
+i {
+    font-size: 50px;
+    padding: 5px;
+    background-color: wheat;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+a {
+    color: black;
+}
+aside.tow {
+    width: 70%;
+    height: 100%;
+    position:absolute;
+    background-color: wheat;
+    float: right;
+    margin-left:30%
+}
+h2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    max-width: 150px;
+    height: 30px;
+    margin-left: 40%;
+    border-radius: 5px;
+    box-shadow: 20px 20px 50px grey;
+}
+p{
+    text-align:center;
+    color:black
+}
+hr{
+    width:70%
+}
+img.tow{
+    width:80px;
+    height:80px;
+   margin-left:150px;
+}
+div.tow {
+    height:150px;
+}
+div.three {
+    height: 200px;
+}
+img.three {
+    width: 60px;
+    height: 155px;
+    margin-left: 380px;
+    border-radius: 10px;
+}
+  
