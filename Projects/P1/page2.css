@@ -1,0 +1,370 @@
+body {
+    font-family: 'Roboto';
+    color: #505F98;
+    width:100%
+}
+header {
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+    color: #505F98;
+    background: rgba(255, 255, 255, 0.1);
+}
+div.one {
+    width: 245px;
+    height: 24px;
+    display: inline;
+    color: #505F98;
+}
+button.home {
+    left: 12%;
+    right: 86%;
+    width: 50px;
+    background-color: white;
+    position: absolute;
+    font-size: 14px;
+    color: #505F98;
+    line-height: 24px;
+    top: 10px;
+    border: none;
+}
+    button.home:hover {
+        background-color: #091133;
+        color: white;
+        border: groove;
+        border-radius: 5px;
+    }
+button.about {
+    left: 19%;
+    right: 80%;
+    width: 50px;
+    background-color: white;
+    color: #505F98;
+    position: absolute;
+    font-size: 14px;
+    line-height: 24px;
+    border: none;
+    top: 10px;
+}
+    button.about:hover {
+        background-color: #091133;
+        color: white;
+        border: groove;
+        border-radius: 5px;
+    }
+button.contact {
+    left: 27%;
+    right: 73%;
+    width: 63px;
+    background-color: white;
+    color: #505F98;
+    position: absolute;
+    font-size: 14px;
+    line-height: 24px;
+    border: none;
+    top: 10px;
+}
+    button.contact:hover {
+        background-color: #091133;
+        color: white;
+        border: groove;
+        border-radius: 5px;
+    }
+p.one {
+    left: 50%;
+    right: 50%;
+    font-size: 20px;
+    color: #091133;
+    line-height: 20px;
+    display: inline;
+    position: absolute;
+    top: 3px;
+}
+button.buy {
+    width: 150px;
+    height: 25px;
+    background-color: #091133;
+    color: white;
+    position: absolute;
+    font-size: 14px;
+    border: none;
+    top: 10px;
+    left: 80%;
+    right: 20%;
+    display: inline;
+    border-radius: 5px;
+}
+aside.one {
+    background-image: url('designer_1.png');
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position: right;
+    width:100%;
+   height:900px;
+}
+p.tow {
+    font-size: 40px;
+    color: #091133;
+    margin-top: 350px;
+    margin-left: 100px;
+    width: 450px;
+}
+p.three {
+    width: 450px;
+    margin-left: 100px;
+    font-size: 15px;
+}
+button.Kit {
+    width: 150px;
+    height: 25px;
+    background-color: #091133;
+    color: white;
+    position: absolute;
+    font-size: 14px;
+    border: none;
+    top: 620px;
+    left: 8%;
+    right: 80%;
+    display: inline;
+    border-radius: 5px;
+}
+button.Learn {
+    width: 150px;
+    height: 25px;
+    background-color: white;
+    background: rgba(255, 255, 255, 0.1);
+    color: #091133;
+    position: absolute;
+    font-size: 14px;
+    top: 620px;
+    left: 22.5%;
+    right: 60%;
+    display: inline;
+    border-radius: 5px;
+}
+aside.tow {
+    background-image: url('undraw_mobile_login_ikmv.png');
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: right;
+    width: 100%;
+    height:900px;
+    margin-top:900px;
+}
+p.four {
+    font-size: 40px;
+    color: #091133;
+    margin-top: 250px;
+    margin-left: 100px;
+    width: 450px;
+}
+p.five {
+    width: 450px;
+    margin-left: 100px;
+    font-size: 15px;
+}
+div.tow {
+    margin-left: 100px;
+    width: 230px;
+    height: 50px;
+    margin-top: 100px;
+    display: inline-block;
+}
+img.one{
+    width:30px;
+    height:30px;
+}
+p.six {
+    font-size: 15px;
+    color: #091133;
+}
+p.seven {
+    width: 230px;
+    font-size: 11px;
+}
+div.three {
+    margin-left: 100px;
+    width: 230px;
+    height: 50px;
+    margin-top: 100px;
+    display:inline-block;
+}
+aside.three {
+    
+    width: 100%;
+    height: 500px;
+    margin-top: 1750px;
+    display: inline-block;
+}
+img.tow {
+    width: 500px;
+    height: 400px;
+    margin-left: 100px;
+}
+p.Light {
+    font-size: 25px;
+    color: #091133;
+    float: right;
+  margin-left:100px;
+    margin-top: 150px;
+    display: inline-block;
+    position:absolute;
+}
+p.Lorem {
+    width: 450px;
+    font-size: 15px;
+    float: right;
+    margin-left: 100px;
+    margin-top: 190px;
+    display: inline-block;
+    position: absolute;
+}
+aside.four {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    display: inline-block;
+}
+button.Purchase {
+    width: 150px;
+    height: 25px;
+    background-color: #091133;
+    color: white;
+    position: absolute;
+    font-size: 14px;
+    border: none;
+    top: 3250px;
+    left: 58%;
+    right: 45%;
+    display: inline;
+    border-radius: 5px;
+}
+aside.five {
+    background-image: url(Rectangle.png);
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+    display: inline-block;
+    text-align: center;
+}
+p.a {
+    font-size: 30px;
+    color: #091133;
+    margin-top: 170px;
+}
+p.ipsum {
+    margin-top: 20px;
+}
+p.price {
+    margin-top: 30px;
+    font-size: 30px;
+    color: #091133;
+}
+p.see {
+    margin-top: 30px;
+}
+button.now {
+    width: 150px;
+    height: 25px;
+    background-color: #091133;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+}
+footer {
+    background-color: #E7ECFF;
+    height: 150px;
+    width: 100%;
+    position: absolute;
+}
+p.copy {
+    display: inline-block;
+    color: #939EA4;
+    margin-left: 50px;
+}
+p.landing {
+    display: inline-block;
+   margin-left:370px;
+ 
+}
+button.last {
+    display: inline-block;
+    float: right;
+    margin-right: 50px ;
+    width: 150px;
+    height: 25px;
+    background-color: #091133;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    margin-top:20px
+}
+.hr{
+    width:92%;
+}
+button.homee {
+    left: 50px;
+    width: 50px;
+    background-color: white;
+    position: absolute;
+    font-size: 14px;
+    color: #505F98;
+    line-height: 24px;
+    top: 80px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+}
+button.homee:hover {
+    background-color: #091133;
+    color: white;
+    border: groove;
+    border-radius: 5px;
+}
+button.aboutt {
+    left: 140px;
+    width: 50px;
+    background-color: white;
+    color: #505F98;
+    position: absolute;
+    font-size: 14px;
+    line-height: 24px;
+    border: none;
+    top: 80px;
+    background: rgba(255, 255, 255, 0.1);
+}
+button.aboutt:hover {
+    background-color: #091133;
+    color: white;
+    border: groove;
+    border-radius: 5px;
+}
+button.contactt {
+    left: 230px;
+    width: 63px;
+    background-color: white;
+    color: #505F98;
+    position: absolute;
+    font-size: 14px;
+    line-height: 24px;
+    border: none;
+    top: 80px;
+    background: rgba(255, 255, 255, 0.1);
+}
+button.contactt:hover {
+    background-color: #091133;
+    color: white;
+    border: groove;
+    border-radius: 5px;
+}
+div.four{
+    float:right;
+    margin-right:30px;
+}
+i{
+    margin-right:20px;
+    font-size:20px
+}
