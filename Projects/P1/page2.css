@@ -1,13 +1,22 @@
 body {
     font-family: 'Roboto';
     color: #505F98;
-    width:100%
+    width:100%;
+    height: :100%;
 }
-header {
+aside.one {
+    background-image: url('designer_1.png');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 50% ;
+    background-position:right;
+    width:100%;
+   height:550px;
+}
+ .header {
     width: 100%;
-    height: 60px;
+    height: 10%;
     display: inline-block;
-    color: #505F98;
     background: rgba(255, 255, 255, 0.1);
 }
 div.one {
@@ -18,26 +27,19 @@ div.one {
 }
 button.home {
     left: 12%;
-    right: 86%;
-    width: 50px;
-    background-color: white;
     position: absolute;
     font-size: 14px;
     color: #505F98;
     line-height: 24px;
     top: 10px;
     border: none;
+     background-color: white;
 }
-    button.home:hover {
-        background-color: #091133;
-        color: white;
-        border: groove;
-        border-radius: 5px;
-    }
+button.home:hover{
+    text-decoration: underline
+}
 button.about {
-    left: 19%;
-    right: 80%;
-    width: 50px;
+    left: 19%;  
     background-color: white;
     color: #505F98;
     position: absolute;
@@ -46,16 +48,11 @@ button.about {
     border: none;
     top: 10px;
 }
-    button.about:hover {
-        background-color: #091133;
-        color: white;
-        border: groove;
-        border-radius: 5px;
-    }
+    button.about:hover{
+    text-decoration: underline
+}
 button.contact {
     left: 27%;
-    right: 73%;
-    width: 63px;
     background-color: white;
     color: #505F98;
     position: absolute;
@@ -64,24 +61,21 @@ button.contact {
     border: none;
     top: 10px;
 }
-    button.contact:hover {
-        background-color: #091133;
-        color: white;
-        border: groove;
-        border-radius: 5px;
-    }
+button.contact:hover{
+    text-decoration: underline
+}
 p.one {
     left: 50%;
     right: 50%;
     font-size: 20px;
     color: #091133;
-    line-height: 20px;
+  line-height: 0px;
     display: inline;
     position: absolute;
     top: 3px;
 }
 button.buy {
-    width: 150px;
+     width:150px;
     height: 25px;
     background-color: #091133;
     color: white;
@@ -94,39 +88,27 @@ button.buy {
     display: inline;
     border-radius: 5px;
 }
-aside.one {
-    background-image: url('designer_1.png');
-    position: absolute;
-    background-repeat: no-repeat;
-    background-size: 900px;
-    background-position: right;
-    width:100%;
-   height:900px;
-}
-p.tow {
-    font-size: 40px;
+p.two {
+    font-size: 250%;
     color: #091133;
-    margin-top: 350px;
-    margin-left: 100px;
-    width: 450px;
+    margin-top: 10%;
+    margin-left: 20%;
+    width: 420px;
 }
 p.three {
-    width: 450px;
-    margin-left: 100px;
-    font-size: 15px;
+    width: 40%;
+    margin-left: 20%;
+    font-size: 75%;
 }
 button.Kit {
     width: 150px;
     height: 25px;
     background-color: #091133;
-    color: white;
-    position: absolute;
+    color: white;   
     font-size: 14px;
     border: none;
-    top: 620px;
-    left: 8%;
-    right: 80%;
-    display: inline;
+    top: 75%;
+    margin-left: 30%;
     border-radius: 5px;
 }
 button.Learn {
@@ -135,42 +117,37 @@ button.Learn {
     background-color: white;
     background: rgba(255, 255, 255, 0.1);
     color: #091133;
-    position: absolute;
     font-size: 14px;
-    top: 620px;
-    left: 22.5%;
-    right: 60%;
-    display: inline;
+    top:  75%;
     border-radius: 5px;
 }
-aside.tow {
+aside.two {
     background-image: url('undraw_mobile_login_ikmv.png');
-    position: absolute;
     background-repeat: no-repeat;
-    background-size: 600px;
+    background-size: 50%;
     background-position: right;
-    width: 100%;
-    height:900px;
-    margin-top:900px;
+    width: 90%;
+    height: 550px;
 }
 p.four {
     font-size: 40px;
-    color: #091133;
-    margin-top: 250px;
-    margin-left: 100px;
+    color: #091133; 
     width: 450px;
+    margin-left: 10%;
+    margin-top: 10px
 }
 p.five {
-    width: 450px;
-    margin-left: 100px;
+    width: 50%;
+    margin-left: 10%;
     font-size: 15px;
+      margin-top: 100px
 }
-div.tow {
-    margin-left: 100px;
+div.two {
+    margin-left: 10%;
     width: 230px;
     height: 50px;
-    margin-top: 100px;
     display: inline-block;
+    margin-top: 30px
 }
 img.one{
     width:30px;
@@ -185,46 +162,42 @@ p.seven {
     font-size: 11px;
 }
 div.three {
-    margin-left: 100px;
+    margin-left: 10%;
     width: 230px;
     height: 50px;
-    margin-top: 100px;
     display:inline-block;
 }
 aside.three {
-    
     width: 100%;
     height: 500px;
-    margin-top: 1750px;
     display: inline-block;
 }
-img.tow {
-    width: 500px;
-    height: 400px;
-    margin-left: 100px;
+img.two {
+    width: 40%;
+    height: 70%;
+    margin-left: 10%;
 }
 p.Light {
     font-size: 25px;
     color: #091133;
     float: right;
-  margin-left:100px;
-    margin-top: 150px;
+  margin-left:10%;
     display: inline-block;
     position:absolute;
+     margin-top: 70px;
 }
 p.Lorem {
-    width: 450px;
+    width: 35%;
     font-size: 15px;
     float: right;
-    margin-left: 100px;
-    margin-top: 190px;
+    margin-top: 130px;
+    margin-left: 10%;
     display: inline-block;
     position: absolute;
 }
 aside.four {
     width: 100%;
     height: 500px;
-    margin-top: 50px;
     display: inline-block;
 }
 button.Purchase {
@@ -235,9 +208,8 @@ button.Purchase {
     position: absolute;
     font-size: 14px;
     border: none;
-    top: 3250px;
-    left: 58%;
-    right: 45%;
+   margin-top: 280px;
+    left: 60.7%;
     display: inline;
     border-radius: 5px;
 }
@@ -276,7 +248,7 @@ button.now {
 }
 footer {
     background-color: #E7ECFF;
-    height: 150px;
+    height: 110px;
     width: 100%;
     position: absolute;
 }
@@ -287,13 +259,12 @@ p.copy {
 }
 p.landing {
     display: inline-block;
-   margin-left:370px;
- 
+ margin-left: 30%
 }
 button.last {
     display: inline-block;
     float: right;
-    margin-right: 50px ;
+    margin-right: 4% ;
     width: 150px;
     height: 25px;
     background-color: #091133;
@@ -301,7 +272,7 @@ button.last {
     font-size: 14px;
     border: none;
     border-radius: 5px;
-    margin-top:20px
+    margin-top:20px;
 }
 .hr{
     width:92%;
@@ -318,11 +289,8 @@ button.homee {
     border: none;
     background: rgba(255, 255, 255, 0.1);
 }
-button.homee:hover {
-    background-color: #091133;
-    color: white;
-    border: groove;
-    border-radius: 5px;
+button.homee:hover{
+    text-decoration: underline
 }
 button.aboutt {
     left: 140px;
@@ -336,11 +304,8 @@ button.aboutt {
     top: 80px;
     background: rgba(255, 255, 255, 0.1);
 }
-button.aboutt:hover {
-    background-color: #091133;
-    color: white;
-    border: groove;
-    border-radius: 5px;
+button.aboutt:hover{
+    text-decoration: underline
 }
 button.contactt {
     left: 230px;
@@ -354,11 +319,8 @@ button.contactt {
     top: 80px;
     background: rgba(255, 255, 255, 0.1);
 }
-button.contactt:hover {
-    background-color: #091133;
-    color: white;
-    border: groove;
-    border-radius: 5px;
+button.contactt:hover{
+    text-decoration: underline
 }
 div.four{
     float:right;
@@ -367,4 +329,369 @@ div.four{
 i{
     margin-right:20px;
     font-size:20px
+}
+a{
+      text-decoration: none;
+     color: #505F98;
+}
+div.onee{
+     width: 245px;
+    height: 24px;
+    display: inline;
+    color: #505F98;
+}
+@media (max-width:600px) {
+    aside.one {
+    background-image: url('designer_1.png');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 95% ;
+    background-position:right;
+    width:100%;
+   height:550px;
+}
+    .header {
+    width: 100%;
+    height: 10%;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1);
+}
+button.home {
+    left: 2%;
+    font-size: 14px;
+    color: #505F98;
+    top: 10px;
+    border: none;
+     background-color: white;
+}
+button.about {
+    left: 2%;
+    color: #505F98;
+    font-size: 14px;
+    border: none;
+    top: 35px;
+     background-color: white;
+}
+button.contact {
+    left: 2%;
+    color: #505F98;
+    font-size: 14px;
+    border: none;
+    top: 60px;
+     background-color: white;
+}
+    p.one {
+    left: 40%;
+    font-size: 20px;
+    color: #091133;
+  line-height: 0px;
+    display: inline;
+    top: 3px;
+}
+button.buy {
+     width:150px;
+    height: 25px;
+    background-color: #091133;
+    color: white;
+    position: absolute;
+    font-size: 14px;
+    border: none;
+    top: 10px;
+    left: 68%;
+    right: 20%;
+    display: inline;
+    border-radius: 5px;
+}
+    p.two {
+    font-size: 180%;
+    color: #091133;
+    margin-top: 10%;
+    margin-left: 2%;
+    width: 320px;
+}
+p.three {
+    width: 40%;
+    margin-left: 2%;
+    font-size: 75%;
+}
+button.Kit {
+    width: 150px;
+    height: 25px;
+    background-color: #091133;
+    color: white;   
+    font-size: 14px;
+    border: none;
+    top: 75%;
+    margin-left: 4%;
+    border-radius: 5px;
+}
+aside.two {
+    background-image: url('undraw_mobile_login_ikmv.png');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: right;
+    width: 100%;
+    height: 550px;
+}
+p.five {
+    width: 50%;
+    margin-left: 10%;
+    font-size: 15px;
+    margin-top: 0
+}
+div.two {
+    margin-left: 10%;
+    width: 230px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 6px
+}
+    button.Purchase {
+    width: 150px;
+    height: 25px;
+    background-color: #091133;
+    color: white;
+    position: absolute;
+    font-size: 14px;
+    border: none;
+   margin-top: 450px;
+    left: 60.7%;
+    display: inline;
+    border-radius: 5px;
+}
+   
+p.copy {
+    display: inline-block;
+    color: #939EA4;
+    margin-left: 0
+}
+p.landing {
+    display: inline-block;
+ margin-left: 13%
+}
+button.last {
+    display: inline-block;
+    float: right;
+    margin-right: 2% ;
+    width: 150px;
+    height: 25px;
+    background-color: #091133;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    margin-top:20px;
+}
+
+button.homee {
+    left: 5px;
+    width: 50px;
+    background-color: white;
+    font-size: 14px;
+    color: #505F98;
+    top: 60px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+}
+button.aboutt {
+    left: 70px;
+    width: 50px;
+    background-color: white;
+    color: #505F98;
+    font-size: 14px;
+    border: none;
+    top: 60px;
+    background: rgba(255, 255, 255, 0.1);
+}
+button.contactt {
+    left: 130px;
+    width: 63px;
+    background-color: white;
+    color: #505F98;
+    font-size: 14px;
+    border: none;
+    top: 60px;
+    background: rgba(255, 255, 255, 0.1);
+}
+div.four{
+    float:right;
+    margin-right:0px;
+}
+}
+@media(max-width: 900px) and (min-width: 600px) {
+     aside.one {
+    background-image: url('designer_1.png');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 85% ;
+    background-position:right;
+    width:100%;
+   height:550px;
+}
+    .header {
+    width: 100%;
+    height: 10%;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1);
+}
+button.home {
+    left: 2%;
+    font-size: 14px;
+    color: #505F98;
+    top: 10px;
+    border: none;
+     background-color: white;
+}
+button.about {
+    left: 11%;
+    color: #505F98;
+    font-size: 14px;
+    border: none;
+     background-color: white;
+}
+button.contact {
+    left: 20%;
+    color: #505F98;
+    font-size: 14px;
+    border: none;
+     background-color: white;
+}
+    p.one {
+    left: 40%;
+    font-size: 20px;
+    color: #091133;
+  line-height: 0px;
+    display: inline;
+}
+button.buy {
+     width:150px;
+    height: 25px;
+    background-color: #091133;
+    color: white;
+    position: absolute;
+    font-size: 14px;
+    border: none;
+    left: 75%;
+    display: inline;
+    border-radius: 5px;
+}
+    p.two {
+    font-size: 180%;
+    color: #091133;
+    margin-top: 10%;
+    margin-left: 6%;
+    width: 320px;
+}
+p.three {
+    width: 40%;
+    margin-left: 6%;
+    font-size: 75%;
+}
+button.Kit {
+    width: 150px;
+    height: 25px;
+    background-color: #091133;
+    color: white;   
+    font-size: 14px;
+    border: none;
+    top: 75%;
+    margin-left: 8%;
+    border-radius: 5px;
+}
+aside.two {
+    background-image: url('undraw_mobile_login_ikmv.png');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: right;
+    width: 100%;
+    height: 550px;
+}
+p.five {
+    width: 50%;
+    margin-left: 10%;
+    font-size: 15px;
+    margin-top: 0
+}
+div.two {
+    margin-left: 10%;
+    width: 230px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 6px
+}
+    div.three {
+    width: 230px;
+    height: 50px;
+    display: block
+}
+    button.Purchase {
+    width: 150px;
+    height: 25px;
+    background-color: #091133;
+    color: white;
+    position: absolute;
+    font-size: 14px;
+    border: none;
+   margin-top: 370px;
+    left: 60.7%;
+    display: inline;
+    border-radius: 5px;
+}
+p.copy {
+    display: inline-block;
+    color: #939EA4;
+    margin-left: 0
+}
+p.landing {
+    display: inline-block;
+ margin-left: 19%
+}
+button.last {
+    display: inline-block;
+    float: right;
+    margin-right: 2% ;
+    width: 150px;
+    height: 25px;
+    background-color: #091133;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    margin-top:20px;
+}
+
+button.homee {
+    left: 5px;
+    width: 50px;
+    background-color: white;
+    font-size: 14px;
+    color: #505F98;
+    top: 60px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+}
+button.aboutt {
+    left: 70px;
+    width: 50px;
+    background-color: white;
+    color: #505F98;
+    font-size: 14px;
+    border: none;
+    top: 60px;
+    background: rgba(255, 255, 255, 0.1);
+}
+button.contactt {
+    left: 130px;
+    width: 63px;
+    background-color: white;
+    color: #505F98;
+    font-size: 14px;
+    border: none;
+    top: 60px;
+    background: rgba(255, 255, 255, 0.1);
+}
+div.four{
+    float:right;
+    margin-right:0px;
+}
 }
