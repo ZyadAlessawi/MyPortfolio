@@ -1,320 +1,179 @@
-@media (min-width:900px) {
-    body {
+ body {
         font-family: 'Roboto';
+       background-color:#1E1E1E;
+     text-transform: capitalize;
+     color: white;
     }
 
-    aside.one {
+
+  img.one {
+            width: 30%;
+            height: 20%;            
+      float: right;
+      margin-top: 6%
+            
+        }
+img.two {
+            width: 20%;
+            height: 10%;            
+      float: left;
+            
+        }
+div.button{
+    float: left;
+    display: block;
+    height: auto;
+    width: 70px;
+    margin-top: 20%;
+    position: fixed
+
+}
+button{
+    border-color:#FFFFFF;
+    width: 120px;
+    height: 50px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color:#1E1E1E;
+text-align: left;
+    font-size: 25px;
+     color: white;
+         text-transform: capitalize;
+}
+
+button:hover{
+    background-color: white;
+    color: black
+}
+button:focus{
+      background-color: white;
+    color: black;
+      
+}
+  h1 {
+        font-size: 35px;
+      text-align: center;
+    }
+  hr {
+        width: 30%
+    }
+ h2 {
+font-size: 250%;
+     margin-top: 200px;
+      text-align: center;
+     width: 60%;
+      margin-left: auto;
+    margin-right: auto;
+        }
+hr.page{
+    width: 90%
+}
+p{
+    width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+   padding: 10%
+}
+ img.three {
+        width: 180px;
+        height: 500px;
+        border-radius: 10px;
+   padding-left: 30%;
+  
+    }
+.container{ 
+            padding-top: 50px;
+      padding-bottom: 50px;
+     display:block;
+margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 60%;
+    text-align: center
+        }
+        .element {
+            width: 28%;
+            padding-right: 60px;
+            padding-left: 60px;
+        }
+ h3 {
+     font-size: 150%;
+  margin-top: 5%;
+      text-align: center;
+      margin-bottom: 5%
+}
+div.contact{
+      text-align: center;
+}
+i{
+    font-size: 70px;
+    width:6%;
+    margin-bottom: 5%;
+     margin-left:19%;
+}
+a{
+    color:#828282
+}
+h5{
+    float: right;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width:900px){
+    div.button{
+    display:block;
+    width: 100%;
+    position:fixed;
+    margin-top: 0;
+    background-color: black
+
+}
+button{
+    border-color:#FFFFFF;
+    width: 19%;
+    height: 30px;
+    background-color:#1E1E1E;
+text-align: center;
+    font-size: 15px;
+     color: white;
+         text-transform: capitalize;
+    border-radius: 5px;}
+h2 {
+font-size: 250%;
+     margin-top: 90px;
+     width: 60%;
+    margin-left:4%;}
+    p{
+    width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+   padding: 10%
+}
+   h1 {
+        font-size: 30px;
+      text-align: center;
+      width:100%;
+       line-height: 130px;
+       height: 10px;
+       margin-top: 0
+    }
+  i{
+    font-size: 30px;
+    width:6%;
+    margin-bottom: 5%;
+     margin-left:19%;
+}
+    img.two {
+            width: 20%;
+            height: 10%;            
+      float: left;
+            margin-top: 9%
+        }
+     hr.name {
         width: 30%;
-        height: 100%;
-        position: absolute;
-        background-color: black;
-        float: left;
-        display: inline-grid
-    }
-    div.four{
-        margin-top:0px;
-        margin-bottom:10px;
-       
-    }
-
-    h1 {
-        font-size: 25px;
-       margin-top:40px;
-        margin-left: 50px;
-        color: white;
-    }
-
-    img.one {
-        width: 100%;
-        height: 350px;
-        float: left;
-        border-radius: 5px;
-    }
-
-    p.one {
-        color: white;
-        text-align: center;
-     
-    }
-
-    i {
-        font-size: 50px;
-        padding: 5px;
-        background-color: wheat;
-        margin-left: 25px;
-        border-radius: 5px;
-    }
-
-    a {
-        color: black;
-    }
-
-    aside.tow {
-        width: 70%;
-        height: 100%;
-        position: absolute;
-        background-color: wheat;
-        float: right;
-        margin-left: 30%
-    }
-
-    h2 {
-        text-align: center;
-        background-color: black;
-        color: white;
-        max-width: 150px;
-        height: 30px;
-        margin-left: 40%;
-        border-radius: 5px;
-        box-shadow: 20px 20px 50px grey;
-    }
-
-    p {
-        text-align: center;
-        color: black
-    }
-
-    hr {
-        width: 70%
-    }
-
-    img.tow {
-        width: 80px;
-        height: 80px;
-        margin-left: 150px;
-    }
-
-    div.tow {
-        height: 150px;
-    }
-
-    div.three {
-        height: 200px;
-    }
-
-    img.three {
-        width: 60px;
-        height: 155px;
-        margin-left: 380px;
-        border-radius: 10px;
+        margin-top: 16%
     }
 }
-
-    @media (max-width:600px) {
-        body {
-            font-family: 'Roboto';
-        }
-
-        aside.one {
-            width: 100%;
-            height: 30%;
-            position: absolute;
-        }
-
-        div.four {
-            background-color: black;
-            top: 0;
-            position: absolute;
-            width: 100%;
-        }
-
-        h1 {
-            font-size: 25px;
-            color: white;
-            background-color: black;
-            text-align: center;
-            width: 100%;
-            background-size: 30px
-        }
-
-        div.one {
-            margin-top: 1075px;
-            background-color: black;
-            position: absolute;
-            width: 100%;
-            height: 150px
-        }
-
-        img.one {
-            width: 100%;
-            height: 400px;
-            border-radius: 5px;
-            top: 0;
-        }
-
-        p.one {
-            color: white;
-            text-align: center;
-            margin-top: 10px
-        }
-
-        i {
-            font-size: 50px;
-            padding: 5px;
-            background-color: wheat;
-            margin-left: 25px;
-            border-radius: 5px;
-            width: 15%;
-        }
-
-        a {
-            color: black;
-        }
-
-        aside.tow {
-            width: 100%;
-            height: 600px;
-            position: absolute;
-            background-color: wheat;
-            margin-top: 475px;
-        }
-
-        h2 {
-            text-align: center;
-            background-color: black;
-            color: white;
-            max-width: 150px;
-            height: 30px;
-            margin-left: 40%;
-            border-radius: 5px;
-            box-shadow: 20px 20px 50px grey;
-        }
-
-        p {
-            text-align: center;
-            color: black
-        }
-
-        hr {
-            width: 80%
-        }
-
-        img.tow {
-            width: 80px;
-            height: 80px;
-            margin-left: 13%;
-        }
-
-        div.tow {
-            height: 150px;
-        }
-
-        div.three {
-            height: 200px;
-        }
-
-        img.three {
-            width: 60px;
-            height: 155px;
-            margin-left: 50%;
-            border-radius: 10px;
-        }
-    }
-@media(max-width: 900px) and (min-width: 600px) {
-    body {
-        font-family: 'Roboto';
-    }
-
-    aside.one {
-        width: 100%;
-        height: 64%;
-        background-color: black;
-    }
-
-
-    h1 {
-        font-size: 25px;
-        color: white;
-        text-align: center;
-        width: 60%;
-        height: 30px;
-        float: right;
-        background-color: black;
-    }
-
-    div.one {
-        background-color: black;
-        width: 50%;
-        height: 250px;
-        position: absolute;
-        margin-left: 42%;
-        top: 90px;
-    }
-
-    img.one {
-        width: 40%;
-        height: 350px;
-        border-radius: 5px;
-        top: 0;
-    }
-
-    p.one {
-        color: white;
-        text-align: center;
-        background-color: black;
-        width: 100%;
-    }
-
-    i {
-        font-size: 50px;
-        padding: 10px;
-        background-color: wheat;
-        margin-left: 25%;
-        border-radius: 5px;
-        width: 15%;
-    }
-
-    a {
-        color: black;
-    }
-
-    aside.tow {
-        width: 100%;
-        height: 600px;
-        position: absolute;
-        background-color: wheat;
-    }
-
-    h2 {
-        text-align: center;
-        background-color: black;
-        color: white;
-        max-width: 150px;
-        height: 30px;
-        margin-left: 40%;
-        border-radius: 5px;
-        box-shadow: 20px 20px 50px grey;
-    }
-
-    p {
-        text-align: center;
-        color: black
-    }
-
-    hr {
-        width: 80%
-    }
-
-    img.tow {
-        width: 80px;
-        height: 80px;
-        margin-left: 17%;
-    }
-
-    div.tow {
-        height: 150px;
-    }
-
-    div.three {
-        height: 200px;
-    }
-
-    img.three {
-        width: 60px;
-        height: 155px;
-        margin-left: 45%;
-        border-radius: 10px;
-    }
-
-}
-
